@@ -1,10 +1,10 @@
-# Storage Usage Analyzer
+# Storage Usage Tracker
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-![File Size Analyzer](app_screenshot.png)
+![File Size Tracker](app_screenshot.png)
 
-The File Size Analyzer is a simple Streamlit app that provides details for the sizes of all files and folders inside a specified directory. With this app, you can quickly get an overview of the space occupied by different files and subdirectories in a specific folder.
+The File Size Tracker is a simple Streamlit app that provides details for the sizes of all files and folders inside a specified directory. With this app, you can quickly get an overview of the space occupied by different files and subdirectories in a specific folder.
 
 ## Getting Started
 
@@ -37,7 +37,7 @@ streamlit run main.py
 
 ## Contributing
 
-If you find any issues or have suggestions to improve the File Size Analyzer app, please feel free to open an issue or submit a pull request in this repository. Your contributions are highly appreciated!
+If you find any issues or have suggestions to improve the File Size Tracker app, please feel free to open an issue or submit a pull request in this repository. Your contributions are highly appreciated!
 
 ## License
 
@@ -45,6 +45,6 @@ This project is licensed under the MIT License - see the [LICENSE](https://opens
 
 ## Acknowledgments
 
-The File Size Analyzer app was inspired by the need to quickly assess the sizes of files and folders within a directory without navigating through the file explorer.
+The File Size Tracker app was inspired by the need to quickly assess the sizes of files and folders within a directory without navigating through the file explorer.
 
 ---
