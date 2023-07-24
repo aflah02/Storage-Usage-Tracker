@@ -6,6 +6,8 @@
 
 The File Size Tracker is a simple Streamlit app that provides details for the sizes of all files and folders inside a specified directory. With this app, you can quickly get an overview of the space occupied by different files and subdirectories in a specific folder.
 
+I went ahead and built this simple web app as the detail view in Windows File Explorer kinda sucks 😣
+
 ## Getting Started
 
 ### Installation
