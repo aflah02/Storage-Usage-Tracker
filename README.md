@@ -34,8 +34,10 @@ streamlit run main.py
 ### Instructions
 
 1. Upon opening the app, you will see a button on clicking which you can choose the directory you want to analyze.
-2. The app will display a table listing all files and folders within the specified directory, along with their respective sizes in a human-readable format (e.g., KB, MB, GB).
-3. The total size of the directory will also be shown at the top of the table.
+2. You can also choose whether to show only files or only folders, or both.
+3. Optionally you can also decide to filter files based on a specific extension.
+4. The app will display a table listing all files and folders within the specified directory, along with their respective sizes in a human-readable format (e.g., KB, MB, GB).
+5. The total size of the directory will also be shown at the top of the table.
 
 ## Contributing
 
