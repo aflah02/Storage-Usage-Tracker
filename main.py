@@ -74,13 +74,13 @@ if folder_path:
             ).rglob('*'))
         data.append(
             {
-                "name": f,
-                "size": size,
+                "Name": f,
+                "Size": size,
                 "isFile": isFile
             }
         )
     # sort by size
-    data = sorted(data, key=lambda k: k['size'], reverse=True)
+    data = sorted(data, key=lambda k: k['Size'], reverse=True)
     df = pd.DataFrame(data, columns=['Name', 'Size', 'isFile'])
     total_size = df['Size'].sum() if len(df) > 0 else 0
     df_display = df.copy()
