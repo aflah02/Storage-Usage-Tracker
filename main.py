@@ -8,7 +8,7 @@ import pandas as pd
 
 # Add Page Config
 st.set_page_config(
-    page_title="Storage Usage Analyzer",
+    page_title="Storage Usage Tracker",
     page_icon="📊",
     initial_sidebar_state="expanded",
 )
@@ -28,12 +28,12 @@ def get_folder_path():
 
 folder_path = None
 
-st.title("Storage Usage Analyzer")
+st.title("Storage Usage Tracker")
 
 if st.button("Select Folder"):
     folder_path = get_folder_path()
 
-if folder_path.strip() == "No Folder Selected":
+if folder_path and folder_path.strip() == "No Folder Selected":
     folder_path = None
     st.write("No Folder Selected")
 
