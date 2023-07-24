@@ -10,7 +10,7 @@ if folder_path:
     print(folder_path)
     root.destroy()
 else:
-    print("no folder selected")
+    print("No Folder Selected")
     root.destroy()
 
 root.mainloop()

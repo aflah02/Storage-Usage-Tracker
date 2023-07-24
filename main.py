@@ -6,6 +6,13 @@ import subprocess
 from pathlib import Path
 import pandas as pd
 
+# Add Page Config
+st.set_page_config(
+    page_title="Storage Usage Analyzer",
+    page_icon="📊",
+    initial_sidebar_state="expanded",
+)
+
 def get_folder_path():
     global folder_path
     path = os.path.abspath('lib')
@@ -25,6 +32,10 @@ st.title("Storage Usage Analyzer")
 
 if st.button("Select Folder"):
     folder_path = get_folder_path()
+
+if folder_path.strip() == "No Folder Selected":
+    folder_path = None
+    st.write("No Folder Selected")
 
 if folder_path and os.path.isfile(folder_path):
     st.write("You selected a file, not a folder.")
