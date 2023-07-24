@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-![File Size Analyzer](app_screenshot.png)
+![File Size Analyzer](app_screenshog)
 
 The File Size Analyzer is a simple Streamlit app that provides details for the sizes of all files and folders inside a specified directory. With this app, you can quickly get an overview of the space occupied by different files and subdirectories in a specific folder.
 
