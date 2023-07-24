@@ -42,9 +42,4 @@ If you find any issues or have suggestions to improve the File Size Tracker app,
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](https://opensource.org/license/mit/) file for details.
-
-## Acknowledgments
-
-The File Size Tracker app was inspired by the need to quickly assess the sizes of files and folders within a directory without navigating through the file explorer.
-
 ---
